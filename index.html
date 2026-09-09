@@ -3,212 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Navya Harini | Student Portfolio</title>
-
+    <meta name="description" content="Navya Harini Murikipudi - MCA student portfolio">
+    <title>Navya Harini | MCA Student Portfolio</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">Portfolio</h2>
+<header class="site-header">
+    <nav class="navbar">
+        <a href="#home" class="logo">NH<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <!-- Home Section -->
+<main>
     <section id="home" class="hero">
-
         <div class="hero-content">
-            <p class="intro">Hello, I am</p>
-
-            <h1>Navya Harini</h1>
-
-            <h2>Computer Science Student</h2>
-
-            <p class="description">
-                I am a passionate student interested in web development,
-                programming, software development, and learning new technologies.
-                I enjoy building projects and improving my technical skills.
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Navya Harini<br><span>Murikipudi</span></h1>
+            <h2>MCA Student & Aspiring Software Developer</h2>
+            <p class="hero-text">
+                A motivated and detail-oriented computer applications student with a strong
+                foundation in programming, database management, and web technologies.
+                I enjoy building practical solutions and continuously learning new technologies.
             </p>
-
-            <div class="buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <div class="hero-buttons">
+                <a class="btn primary" href="#projects">View Projects</a>
+                <a class="btn secondary" href="#contact">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/navyaharinim26-ai" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/navyaharini" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:mvsnavyaharini@gmail.com">Email</a>
             </div>
         </div>
 
+        <div class="hero-card">
+            <div class="profile-placeholder">NH</div>
+            <div>
+                <span>Currently pursuing</span>
+                <strong>Master of Computer Applications</strong>
+                <small>R.V.R & JCCE, Guntur</small>
+            </div>
+        </div>
     </section>
 
-
-    <!-- About Section -->
     <section id="about" class="section">
-        <h2 class="section-title">About Me</h2>
-
-        <div class="about-content">
-            <p>
-                I am a Computer Science student with an interest in software
-                development and web technologies. I am continuously improving
-                my knowledge in programming languages, databases, and modern
-                web development.
-            </p>
-
-            <p>
-                My goal is to build practical applications, gain industry
-                experience, and grow into a skilled software professional.
-            </p>
+        <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Building skills through <span>practical experience.</span></h2>
         </div>
-    </section>
-
-
-    <!-- Skills Section -->
-    <section id="skills" class="section light-bg">
-
-        <h2 class="section-title">Technical Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-                <h3>Programming</h3>
-                <p>Python, Java, C</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Web Development</h3>
-                <p>HTML, CSS, JavaScript</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Database</h3>
-                <p>SQL, DBMS</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Tools</h3>
-                <p>Git, GitHub, VS Code</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-
-        <h2 class="section-title">Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-                <h3>Student Portfolio Website</h3>
-
+        <div class="about-grid">
+            <div class="about-text">
                 <p>
-                    A responsive personal portfolio website created using
-                    HTML and CSS to showcase skills, education, and projects.
+                    I am pursuing a Master of Computer Applications at R.V.R & JCCE, Guntur.
+                    My interests include software development, web development, Python,
+                    databases, and building user-focused applications.
                 </p>
-
-                <a href="#" class="project-link">View Project</a>
-            </div>
-
-
-            <div class="project-card">
-                <h3>Student Management System</h3>
-
                 <p>
-                    A basic application for managing student information
-                    such as name, roll number, and academic details.
+                    During my internships, I worked on responsive web development and Python,
+                    gaining practical exposure to testing, APIs, cross-browser compatibility,
+                    clean code, and object-oriented programming.
                 </p>
-
-                <a href="#" class="project-link">View Project</a>
             </div>
+            <div class="about-facts">
+                <div><span>Location</span><strong>Guntur, India</strong></div>
+                <div><span>Education</span><strong>MCA — 2025–Present</strong></div>
+                <div><span>Undergraduate</span><strong>BCA — 85 CGPA</strong></div>
+                <div><span>Languages</span><strong>English & Telugu</strong></div>
+            </div>
+        </div>
+    </section>
 
+    <section id="skills" class="section alt">
+        <div class="section-heading">
+            <p class="eyebrow">Technical Skills</p>
+            <h2>Tools & technologies I <span>work with.</span></h2>
+        </div>
+        <div class="skills-grid">
+            <article class="skill-card"><h3>Programming</h3><p>C · Java · Python</p></article>
+            <article class="skill-card"><h3>Web Development</h3><p>HTML · CSS · JavaScript</p></article>
+            <article class="skill-card"><h3>Database</h3><p>MySQL · Database Management</p></article>
+            <article class="skill-card"><h3>Development Tools</h3><p>VS Code · GitHub · Postman</p></article>
+            <article class="skill-card"><h3>Office Tools</h3><p>MS Office</p></article>
+            <article class="skill-card"><h3>Core Concepts</h3><p>OOP · APIs · Responsive Design · Testing</p></article>
+        </div>
+    </section>
 
-            <div class="project-card">
-                <h3>Python Mini Project</h3>
+    <section id="experience" class="section">
+        <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Internship <span>experience.</span></h2>
+        </div>
 
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Dec 2024 — Mar 2025</div>
+                <div class="timeline-content">
+                    <h3>Web Development Intern</h3>
+                    <h4>Vnuture IT · Vijayawada</h4>
+                    <ul>
+                        <li>Developed responsive website layouts and improved cross-browser compatibility.</li>
+                        <li>Tested web applications across different devices and browsers for reliable performance.</li>
+                        <li>Collaborated with the design team to maintain consistent and appealing interfaces.</li>
+                        <li>Integrated third-party APIs to expand web application capabilities.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">May 2024 — Jun 2024</div>
+                <div class="timeline-content">
+                    <h3>Python Intern</h3>
+                    <h4>Purple Technologies · Vijayawada</h4>
+                    <ul>
+                        <li>Strengthened knowledge of Python syntax, data types, and control structures.</li>
+                        <li>Practiced writing clean and readable Python code.</li>
+                        <li>Applied object-oriented programming principles in Python.</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="projects" class="section alt">
+        <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>What I've <span>built.</span></h2>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card featured">
+                <div class="project-number">01</div>
+                <h3>Inventory Management System</h3>
                 <p>
-                    A Python-based application demonstrating programming
-                    concepts, functions, file handling, and data processing.
+                    A mini project designed to organize and manage inventory information,
+                    helping users track products and maintain records efficiently.
                 </p>
+                <div class="tags">
+                    <span>Python</span><span>MySQL</span><span>VS Code</span>
+                </div>
+                <a href="https://github.com/navyaharinim26-ai" target="_blank" rel="noopener" class="project-link">GitHub Profile ↗</a>
+            </article>
 
-                <a href="#" class="project-link">View Project</a>
+            <article class="project-card">
+                <div class="project-number">02</div>
+                <h3>Student Portfolio</h3>
+                <p>
+                    A responsive personal portfolio website created with semantic HTML and
+                    modern CSS to showcase education, skills, experience, and projects.
+                </p>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span><span>GitHub Pages</span>
+                </div>
+                <a href="https://github.com/navyaharinim26-ai" target="_blank" rel="noopener" class="project-link">View GitHub ↗</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Academic <span>journey.</span></h2>
+        </div>
+
+        <div class="education-grid">
+            <article class="education-card current">
+                <span class="status">Current</span>
+                <h3>Master of Computer Applications</h3>
+                <h4>R.V.R & JCCE, Guntur</h4>
+                <p>July 2025 — Present</p>
+            </article>
+
+            <article class="education-card">
+                <h3>Bachelor of Computer Applications</h3>
+                <h4>Vignan Degree College, Guntur</h4>
+                <p>July 2022 — March 2025</p>
+                <strong>85 CGPA</strong>
+            </article>
+
+            <article class="education-card">
+                <h3>CBSE</h3>
+                <h4>Sri Venkateswara Bala Kuteer</h4>
+                <p>School Education</p>
+                <strong>66%</strong>
+            </article>
+        </div>
+    </section>
+
+    <section id="achievements" class="section alt">
+        <div class="section-heading">
+            <p class="eyebrow">Beyond Academics</p>
+            <h2>Achievements & <span>activities.</span></h2>
+        </div>
+        <div class="achievement-grid">
+            <article class="achievement-card">
+                <span>2017–2018</span>
+                <h3>Shot Put Winner</h3>
+                <p>Won an award for shot put at Sri Venkateswara Bala Kuteer.</p>
+            </article>
+            <article class="achievement-card">
+                <span>2019–2020</span>
+                <h3>Championship Award</h3>
+                <p>Received a championship award for overall games in sports conducted at school.</p>
+            </article>
+            <article class="achievement-card">
+                <span>2022 & 2025</span>
+                <h3>Sravanthi Event</h3>
+                <p>Participated as a leading member and event organizer, developing communication and coordination skills.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-inner">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's connect.</h2>
+            <p>I'm open to opportunities, projects, and conversations about software development.</p>
+            <div class="contact-details">
+                <a href="mailto:mvsnavyaharini@gmail.com">mvsnavyaharini@gmail.com</a>
+                <a href="tel:+919866260531">+91 98662 60531</a>
+                <span>Guntur, India</span>
             </div>
-
+            <div class="hero-buttons">
+                <a class="btn primary" href="mailto:mvsnavyaharini@gmail.com">Email Me</a>
+                <a class="btn secondary light" href="https://www.linkedin.com/in/navyaharini" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
         </div>
-
     </section>
+</main>
 
-
-    <!-- Education Section -->
-    <section id="education" class="section light-bg">
-
-        <h2 class="section-title">Education</h2>
-
-        <div class="education-card">
-
-            <h3>Bachelor of Technology</h3>
-
-            <p><strong>Branch:</strong> Computer Science and Engineering</p>
-
-            <p><strong>College:</strong> Your College Name</p>
-
-            <p><strong>Year:</strong> 2023 - 2027</p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-
-        <h2 class="section-title">Contact Me</h2>
-
-        <div class="contact-container">
-
-            <p><strong>Email:</strong> yourname@email.com</p>
-
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/yourusername" target="_blank">
-                    github.com/yourusername
-                </a>
-            </p>
-
-            <p>
-                <strong>LinkedIn:</strong>
-                <a href="#" target="_blank">
-                    Your LinkedIn Profile
-                </a>
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Navya Harini. All Rights Reserved.</p>
-    </footer>
+<footer>
+    <p>© 2026 Navya Harini Murikipudi · Built with HTML & CSS</p>
+    <div>
+        <a href="https://github.com/navyaharinim26-ai" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/navyaharini" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+</footer>
 
 </body>
 </html>
